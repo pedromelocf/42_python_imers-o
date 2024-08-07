@@ -2,8 +2,8 @@
 import sys
 
 def main():
-	i = int(0)
-	x = int(0)
+	i = 0
+	x = 0
 
 	if len(sys.argv) != 1:
 		exit(print("none"))

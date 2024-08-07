@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def main():
-	i = 1(int)
+	i = 1
 	user_input = int(input('Please tell me your age: '))
 
 	print(f'You are currently {user_input} years old.')

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import sys
-import re
 
 def main():
 	i = len(sys.argv)
