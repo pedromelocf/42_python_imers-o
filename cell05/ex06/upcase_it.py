@@ -4,10 +4,9 @@ import sys
 
 def main():
 	argc = len(sys.argv)
-	if argc == 1:
-		print("none")
-	else:
+	if argc == 2:
 		print(sys.argv[1].upper())
+	else:
+		print("none")
 
-if __name__ == "__main__":
-	main()
+main()

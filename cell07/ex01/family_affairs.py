@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
+def filter_redheads(person):
+    if person[1] == "red":
+        return True
+    else:
+        return False
 
-def find_the_redheads(dict):
-    print(dict.keys())
-    list_key = dict.tolist()
-    print(list_key)
+def find_the_redheads(obj):
+    result = dict(filter(filter_redheads, obj.items()))
+    print(list(result.keys()))
 
 dupont_family = {
     "florian": "red",
@@ -13,4 +17,4 @@ dupont_family = {
     "franck": "red"
 }
 
-print(find_the_redheads(dupont_family))
+find_the_redheads(dupont_family)
